@@ -34,7 +34,7 @@ const projects = [
     ],
     technologies: ["React", "Node.js", "MongoDB", "Express", "Tailwind CSS"],
     image: dreamHomesImage,
-    url: "/dream-home",
+    url: "/dream-homes",
     liveUrl: "https://dream-homes-fawn.vercel.app/",
     githubUrl: "https://github.com/Ganesh-D-Kumbhar/Dream-Homes",
     icon: Home,
