@@ -21,6 +21,7 @@ const roles = [
   "Full Stack Web Developer",
   "Frontend Engineer",
   "Performance-Focused UI Developer",
+  "React.js, Next.js, Node.js Expert"
 ];
 
 export default function Home() {
@@ -58,7 +59,7 @@ export default function Home() {
   const handleDownloadClick = () => {
     setIsFormOpen(true);
   };
-   const handleViewProjectsClick = () => {
+  const handleViewProjectsClick = () => {
     const projectsSection = document.getElementById("projects");
     if (projectsSection) {
       projectsSection.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -82,7 +83,7 @@ export default function Home() {
           >
             {/* Main Heading */}
             <div className="space-y-6">
-              <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight tracking-tight">
+              <h3 className="text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight tracking-tight">
                 <span className="block bg-gradient-to-r from-purple-200 via-purple-100 to-purple-300 bg-clip-text text-transparent">
                   Transforming Ideas
                 </span>
@@ -92,12 +93,12 @@ export default function Home() {
                 <span className="block bg-gradient-to-r from-purple-400 via-purple-300 to-purple-500 bg-clip-text text-transparent">
                   Modern Digital Experiences
                 </span>
-              </h1>
+              </h3>
 
               {/* Subtitle with Rotating Role */}
               <div className="flex flex-col items-center gap-4">
-                <h1 className="text-white text-3xl font-semibold">
-                  Ganesh Kumbhar{" "}
+                <h1 className="text-white text-2xl font-semibold">
+                  Ganesh Kumbhar – MERN Stack Developer | React.js, Next.js, Node.js Expert
                 </h1>
                 <div className="h-2 flex items-center m-6">
                   <h2 className="text-4xl font-bold sm:text-5xl text-purple-300 transition-all duration-500 inline-block">
