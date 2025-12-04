@@ -90,6 +90,7 @@ const Certifications = () => {
 
   return (
     <section className="min-h-screen bg-black py-20 px-4 relative overflow-hidden">
+      <AnimatedBackground />
 
       <div className="max-w-full mx-auto relative z-10">
         {/* Header Section */}
